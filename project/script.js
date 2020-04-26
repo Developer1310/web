@@ -1,4 +1,5 @@
 const main = document.querySelector(".main");
+const select = document.querySelectorAll(".element");
 const data = [
   ["stevejobs.jpeg", "Steven Paul Jobs"],
   ["billgates.jpeg", "William Henry Bill Gates"],
