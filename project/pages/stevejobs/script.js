@@ -2,12 +2,13 @@ const header = document.querySelector(".header");
 const about = document.querySelector("#about");
 const data_class = document.querySelector(".data");
 const footer = document.querySelector(".footer");
-const name = "Jeff Bezoz";
-const full_name = "Jeffrey Preston Jorgensen";
-const address = "Albuquerque, New Mexico, U.S.A.";
-const birth_date = "January 12, 1964";
+const name = "Steve Jobs";
+const full_name = "Steven Paul Jobs";
+const address = "San Francisco, California, U.S.A.";
+const birth_date = "February 24, 1955";
 const wikiLink = "https://en.wikipedia.org/wiki/Jeff_Bezos";
-const imgLink = "https://wallpapercave.com/wp/wp4025610.jpg";
+const imgLink =
+  "https://i.pinimg.com/originals/d8/58/be/d858be20d47147e83f9f7ba30a7eb6bf.jpg";
 const data = [
   'He is an American industrialist, media proprietor, and investor. He is best known as the founder, CEO, and president of the online retail company Amazon. The first centi-billionaire on the Forbes wealth index, Bezos has been the world\'s richest person since 2017 and was named the "richest man in modern history" after his net worth increased to $150 billion in July 2018. In September 2018, Forbes described him as "far richer than anyone else on the planet" as he added $1.8 billion to his net worth when Amazon became the second company in history to reach a market cap of $1 trillion.',
   "Born in Albuquerque and raised in Houston and later Miami, Bezos graduated from Princeton University in 1986 with a degree in electrical engineering and computer science. He worked on Wall Street in a variety of related fields from 1986 to early 1994. He founded Amazon in late 1994 on a cross-country road trip from New York City to Seattle. The company began as an online bookstore and has since expanded to a wide variety of other e-commerce products and services, including video and audio streaming, cloud computing, and AI. It is currently the world's largest online sales company, the largest Internet company by revenue, and the world's largest provider of virtual assistants and cloud infrastructure services through its Amazon Web Services branch.",
@@ -20,11 +21,12 @@ const addHeader = () => {
   let a2 = document.createElement("a");
   let a21 = document.createElement("button");
   header.style.backgroundImage = `url(${imgLink})`;
+  a1.style.color = "transparent";
   a.className = "text-vertical-center";
   a1.className = "title";
   a1.textContent = name;
   a2.href = "#about";
-  a21.textContent = "V";
+  a21.textContent = "";
   a2.appendChild(a21);
   a.appendChild(a1);
   a.appendChild(a2);
