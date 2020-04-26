@@ -2,6 +2,7 @@ const header = document.querySelector(".header");
 const about = document.querySelector("#about");
 const data_class = document.querySelector(".data");
 const footer = document.querySelector(".footer");
+const main = document.querySelector(".main");
 document.querySelector(".main-title").textContent = all.name;
 const addHeader = () => {
   let a = document.createElement("div");
@@ -41,6 +42,7 @@ const addData = () => {
     div.appendChild(tmp);
     data_class.appendChild(div);
   });
+  main.style.backgroundImage = `url(${all.backImg})`;
 };
 const addFooter = () => {
   let p1 = document.createElement("p");

@@ -8,6 +8,7 @@ const all = {
     "https://i.pinimg.com/originals/d8/58/be/d858be20d47147e83f9f7ba30a7eb6bf.jpg",
   nameColor: "transparent",
   namePosition: "bottom",
+  backImg: "https://wallpapercave.com/wp/8duz5Ir.jpg",
   data: [
     [
       "Birth",
