@@ -12,7 +12,7 @@ const addHeader = () => {
   header.style.backgroundImage = `url(${all.imgLink})`;
   a1.style.color = all.nameColor;
   a.className = "text-vertical-center";
-  a.style.verticalAlign = all.namePosition;
+  a.style.verticalAlign = all.namePostion;
   a1.className = "title";
   a1.textContent = all.name;
   a2.href = "#about";
@@ -42,7 +42,7 @@ const addData = () => {
     div.appendChild(tmp);
     data_class.appendChild(div);
   });
-  main.style.backgroundImage = `url(${all.backImg})`;
+  if (all.backImg != "") main.style.backgroundImage = `url(${all.backImg})`;
 };
 const addFooter = () => {
   let p1 = document.createElement("p");
