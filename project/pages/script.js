@@ -53,11 +53,12 @@ const addFooter = () => {
   a1.textContent = "click here!";
   p1.textContent = "If you want to know more about " + all.name + " --> ";
   p1.appendChild(a1);
-  a2.href = location.pathname.substr(0, i + 1) + "/web/project/index.html";
-  a2.textContent = "go back";
-  p2.appendChild(a2);
+  // let i = location.pathname.indexOf("/");
+  // a2.href = location.pathname.substr(0, i + 1);
+  // a2.textContent = "go back";
+  // p2.appendChild(a2);
   footer.appendChild(p1);
-  footer.appendChild(p2);
+  //footer.appendChild(p2);
 };
 addHeader();
 addBody();
