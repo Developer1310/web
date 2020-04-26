@@ -60,3 +60,12 @@ body {
 #about h3 {
   border-bottom: 2px dotted white;
 }
+.data {
+  color: white;
+  font-size: 1.24em;
+}
+.footer {
+  color: white;
+  margin: 3px;
+  font-size: 1.2em;
+}
