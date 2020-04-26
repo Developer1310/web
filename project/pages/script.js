@@ -47,11 +47,18 @@ const addData = () => {
 const addFooter = () => {
   let p1 = document.createElement("p");
   let a1 = document.createElement("a");
+  let p2 = document.createElement("p");
+  let a2 = document.createElement("a");
   a1.href = all.wikiLink;
   a1.textContent = "click here!";
   p1.textContent = "If you want to know more about " + all.name + " --> ";
   p1.appendChild(a1);
+  let i = location.pathname.indexOf("/");
+  a2.href = location.pathname.substr(0, i + 1);
+  a2.textContent = "go back";
+  p2.appendChild(a2);
   footer.appendChild(p1);
+  footer.appendChild(p2);
 };
 addHeader();
 addBody();
