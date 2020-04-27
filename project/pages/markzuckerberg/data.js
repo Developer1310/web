@@ -1,12 +1,33 @@
 const all = {
-  name: "",
-  full_name: "",
-  address: "",
-  birth_date: "",
-  wikiLink: "",
-  imgLink: "",
-  nameColor: "",
-  namePostion: "",
-  backImg: "",
-  data: [],
+	name:"MARK ZUCKERBERG",
+	address:"White Plains, New York",
+	birth_date:"May 14, 1984",
+	wikiLink:"https://en.wikipedia.org/wiki/Mark_Zuckerberg",
+	imgLink:"https://wallpapercave.com/wp/wp2126142.jpg",
+	nameColor:"white",
+	namePosition:"bottom",
+	backImg: "https://wallpaperaccess.com/full/2547005.jpg",
+	data:
+	[
+	[
+		"BIRTH",
+		'Zuckerberg was born on May 14, 1984, in White Plains, New York. His parents are Karen (née Kempner), a psychiatrist, and Edward Zuckerberg, a dentist. He and his three sisters, Randi, Donna and Arielle, were brought up in Dobbs Ferry, New York, a small Westchester County village about 21 miles north of Midtown Manhattan. Zuckerberg was raised in a Reform Jewish household, and his ancestors hailed from Germany, Austria and Poland. He had a Star Wars-themed bar mitzvah when he turned 13.',	
+	],
+	[
+		"EARLY COMPUTING",
+		'For two years, Zuckerberg attended public high school Ardsley and then transferred to the Phillips Exeter Academy, where he excelled in classical studies and science. He won prizes for math, astronomy, and physics. By his high school graduation, Zuckerberg could read and write French, Hebrew, Latin, and ancient Greek.For his senior project at Exeter, Zuckerberg wrote a music player called the Synapse Media Player that used artificial intelligence to learn the user\'s listening habits and recommend other music. He posted it online on AOL and it received thousands of positive reviews. Both Microsoft and AOL offered to buy Synapse for $1 million and hire Mark Zuckerberg as a developer, but he turned them both down and instead enrolled at Harvard University in September 2002',
+	],
+	[
+		"HARVARD UNIVERSITY",
+		'Mark Zuckerberg attended Harvard University, where he studied psychology and computer science. In his sophomore year, he wrote a program he called Course Match, which allowed users to make class selection decisions based on the choices of other students and also to help them form study groups.He also invented Facemash, a program with the stated purpose of finding out who was the most attractive person on campus.But due to controversies ,Zuckerberg ended the project and apologized to the women\'s groups, saying he thought of it as a computer experiment. Harvard put him on probation.',
+	],
+	[
+		"FACEBOOK",
+		'Zuckerberg\'s roommates at Harvard included Chris Hughes, a literature and history major; Billy Olson, a theater major; and Dustin Moskovitz, who was studying economics. There is no doubt that the conversational stew that occurred among them spurred and enhanced many of the ideas and projects that Zuckerberg was working on.While at Harvard, Mark Zuckerberg founded TheFacebook, an application intended to be a reliable directory based on real information about students at Harvard. That software eventually led to the February 2004 launch of Facebook.On October 1, 2012, Zuckerberg visited Russian Prime Minister Dmitry Medvedev in Moscow to stimulate social media innovation in Russia and to boost Facebook\'s position in the Russian market. Russia\'s communications minister tweeted that Prime Minister Dmitry Medvedev urged the social media giant\'s founder to abandon plans to lure away Russian programmers and instead consider opening a research center in Moscow. In 2012, Facebook had roughly 9 million users in Russia, while domestic clone VK had around 34 million. Rebecca Van Dyck, Facebook\'s head of consumer marketing, claimed that 85 million American Facebook users were exposed to the first day of the Home promotional campaign on April 6, 2013. On August 19, 2013, The Washington Post reported that Zuckerberg\'s Facebook profile was hacked by an unemployed web developer.At the 2013 TechCrunch Disrupt conference, held in September, Zuckerberg stated that he is working towards registering the 5 billion people who were not connected to the Internet as of the conference on Facebook. Zuckerberg then explained that this is intertwined with the aim of the Internet.org project, whereby Facebook, with the support of other technology companies, seeks to increase the number of people connected to the internet.',
+	],
+	[
+		"PHILANTHROPY AND CHAN ZUCKERBERG",
+		'In 2010, Zuckerberg donated an undisclosed amount to Diaspora, an open-source personal Web server that implements a distributed social networking service. He called it a "cool idea".Zuckerberg founded the Start-up: Education foundation. On September 22, 2010, it was reported that Zuckerberg had donated $100 million to Newark Public Schools, the public school system of Newark, New Jersey.On December 9, 2010, Zuckerberg, Bill Gates, and investor Warren Buffett signed "The Giving Pledge", in which they promised to donate to charity at least half of their wealth over the course of time, and invited others among the wealthy to donate 50 percent or more of their wealth to charity.In December 2012, Zuckerberg and his wife Priscilla Chan announced that over the course of their lives they would give the majority of their wealth to "advancing human potential and promoting equality" in the spirit of The Giving Pledge.On December 19, 2013, Zuckerberg announced a donation of 18 million Facebook shares to the Silicon Valley Community Foundation, to be executed by the end of the month—based on Facebook\'s valuation as of then, the shares totaled $990 million in value. On December 31, 2013, the donation was recognized as the largest charitable gift on public record for 2013.The Chronicle of Philanthropy placed Zuckerberg and his wife at the top of the magazine\'s annual list of 50 most generous Americans for 2013, having donated roughly $1 billion to charity.In October 2014, Zuckerberg and his wife Priscilla Chan donated US$25 million to combat the Ebola virus disease, specifically the West African Ebola virus epidemic.On December 1, 2015, Zuckerberg and Chan pledged to transfer 99% of their Facebook shares, then valued at US$45 billion, to the Chan Zuckerberg Initiative, their new organization that will focus on health and education. The funds will not be transferred immediately, but over the course of their lives.Instead of forming a charitable corporation to donate the value of the stock to, as Bill Gates, Warren Buffett, Larry Page, Sergey Brin and other billionaires have done, Zuckerberg and Chan chose to use the structure of a limited liability company (LLC). Some journalists and academics have said the Chan Zuckerberg Initiative conducts philanthrocapitalism.     Amidst the 2019–20 coronavirus pandemic, Zuckerberg donated $25 million to a Bill and Melinda Gates Foundation-backed accelerator that is searching for treatments for the disease.He also announced $25 million in grants to support local journalism that was impacted by the pandemic and $75 million in advertisement purchases in local newspapers by Facebook, Inc., where Facebook will market itself.',
+	],
+	],
 };

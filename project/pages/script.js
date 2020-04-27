@@ -12,7 +12,7 @@ const addHeader = () => {
   header.style.backgroundImage = `url(${all.imgLink})`;
   a1.style.color = all.nameColor;
   a.className = "text-vertical-center";
-  a.style.verticalAlign = all.namePostion;
+  a.style.verticalAlign = "bottom";
   a1.className = "title";
   a1.textContent = all.name;
   a2.href = "#about";
