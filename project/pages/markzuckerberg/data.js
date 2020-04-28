@@ -6,7 +6,7 @@ const all = {
 	imgLink:"https://wallpapercave.com/wp/wp2126142.jpg",
 	nameColor:"white",
 	namePosition:"bottom",
-	backImg: "https://wallpaperaccess.com/full/2547005.jpg",
+	backImg: "",
 	data:
 	[
 	[
